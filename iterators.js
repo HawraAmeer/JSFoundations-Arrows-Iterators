@@ -4,7 +4,9 @@
  * - Accepts an array
  * - Logs every element of the array
  ************************************/
-const logger = (array) => console.log(array);
+const logger = (array) => {
+  array.forEach((element) => console.log(element));
+};
 
 /*************************************
  * toCelsius(temperatures)
